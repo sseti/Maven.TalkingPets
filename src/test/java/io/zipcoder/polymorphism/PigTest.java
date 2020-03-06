@@ -9,7 +9,7 @@ public class PigTest {
 
     @Test
     public void getNameTest(){
-        Pig pig = new Pig();
+        Pig pig = new Pig("Piglet");
         String expected = "Piglet";
         String actual = pig.getName();
         Assert.assertEquals(expected,actual);
@@ -17,7 +17,7 @@ public class PigTest {
 
     @Test
     public void speakTest(){
-        Pig pig = new Pig();
+        Pig pig = new Pig("Piglet");
         String expected = "Oink! Oink!";
         String actual = pig.speak();
         Assert.assertEquals(expected,actual);
