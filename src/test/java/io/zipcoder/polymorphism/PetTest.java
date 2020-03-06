@@ -11,7 +11,7 @@ public class PetTest {
 
     @Test
     public void getNameTest(){
-        Pet pet = new Pet();
+        Pet pet = new Pet("George");
         String expected = "George";
         String actual = pet.getName();
         Assert.assertEquals(expected,actual);
@@ -19,7 +19,7 @@ public class PetTest {
 
     @Test
     public void speakTest(){
-        Pet pet = new Pet();
+        Pet pet = new Pet("George");
         String expected = "You are useless.";
         String actual = pet.speak();
         Assert.assertEquals(expected,actual);
