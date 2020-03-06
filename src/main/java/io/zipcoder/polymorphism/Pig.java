@@ -1,4 +1,4 @@
 package io.zipcoder.polymorphism;
 
-public class Pig {
+public class Pig extends Pet {
 }
